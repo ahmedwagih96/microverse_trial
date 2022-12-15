@@ -82,3 +82,34 @@ form button {
   max-width: 48px;
   max-height: 48px;
 }
+ #price{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+ }
+ 
+ .price_option{
+  border: 1px solid black;
+ }
+ .price_option h3{
+  background-color: #ddd;
+  padding: 15px 0;
+  text-transform: uppercase;
+  width: 100%;
+  font-weight: 700;
+ }
+ .price_option ul{
+
+  text-align: center;
+ }
+  li{
+    list-style: none;
+  }
+
+  .price_option p {
+    text-align: center;
+  }
+   .price_option button{
+    
+   }
+ 
