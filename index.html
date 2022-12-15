@@ -10,17 +10,17 @@
     <body>
     <header id="header">
       <div class="logo">
-        <img src="./imgs/logo.png" alt="Logo" />
+        <img src="./imgs/logo.png" alt="Logo" id="header-img" />
       </div>
-      <nav>
+      <nav id="nav-bar">
         <ul>
-          <a href="#features">
+          <a class='nav-link' href="#features">
             <li>Features</li>
           </a>
-          <a href="#how">
+          <a class='nav-link' href="#how">
             <li>How it works</li>
           </a>
-          <a href="#pricing">
+          <a class='nav-link' href="#pricing">
             <li>Pricing</li>
           </a>
         </ul>
@@ -29,9 +29,9 @@
     <main>
       <h1>Handcrafted, home-made masterpieces</h1>
       <section>
-        <form class="subscribe">
-          <input type="text" placeholder="Enter your email address" />
-          <button>Get Started</button>
+        <form id="form" class="subscribe" action="">
+          <input id="email" type="email" placeholder="Enter your email address" />
+          <button id="submit" type="submit">Get Started</button>
         </form>
       </section>
 
